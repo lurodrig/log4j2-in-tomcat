@@ -30,7 +30,7 @@ Apache Tomcat image with the spring-boot hello world REST example both configure
 
 Or just run the [run-test-tomcat-log4j2.sh](run-test-tomcat-log4j2.sh). 
 
-With the provided configuration the docker output should be quite silent, if not [shout me](https://github.com/lurodrig/log4j2-in-tomcat/issues/new)!!! ;). If you want to have a look at the apache tomcat log run `docker exec -it test-tomcat-log4j2 tail -f logs/catalina.log`
+With the provided configuration the docker output should be quite silent, if not [shout me](https://github.com/lurodrig/log4j2-in-tomcat/issues/new)!!! ;). If you want to have a look at the apache tomcat log run `docker exec -it test-tomcat-log4j2 tail -f logs/catalina.log` If you want to see details in the console aobut the log4j2 configuration set `<Configuration status="debug">` in [log4j2-tomcat.xml](log4j2-tomcat.xml). 
 
 ## License
 
